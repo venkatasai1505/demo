@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 90vh; */
+  font-family: 'Roboto', sans-serif;
+}
+.images {
+  margin: 10px;
+  border: 5px solid black;
+}
+.imagesCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.pice {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  display: flex;
+  margin-bottom: 20px;
+}
+.input input {
+  height: 20px;
+  background-color: rgb(206, 204, 204);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+.input button {
+  /* width: 80px; */
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(17, 0, 71);
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.input button:hover {
+  background-color: rgb(7, 0, 31);
+}
+.input .rows {
+  margin-right: 10px;
+}
+.input .column {
+  margin-right: 10px;
+}
+.pice.white {
+  background-color: rgb(195 195 195);
+  color: orangered;
+}
+.pice.black {
+  background-color: rgb(32 32 32);
+  color: orangered;
+}
+.pice i {
+  font-size: 50px;
+}
+.queen {
+  display: none;
+}
+.correctPosition {
+  display: block;
+}
+/* .exPice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
